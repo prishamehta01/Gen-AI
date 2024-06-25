@@ -1,0 +1,5 @@
+from langchain_cohere.llms import Cohere
+
+llm = Cohere(cohere_api_key="TgwV4cHwo6llf9LOVGwK5WWnmNeNBiBN6uZkCUVI")
+response = llm.invoke("Come up with a pet name")
+print(response)
